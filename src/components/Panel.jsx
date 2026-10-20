@@ -1,8 +1,8 @@
 export default function Panel({ judul, children }) {
   return (
     <div className="panel">
-      {judul && <h1 className="judul">{judul}</h1>}
-      {children}
+      {judul && <h1>{judul}</h1>}
+      <div className="daftar">{children}</div>
     </div>
   );
 }
