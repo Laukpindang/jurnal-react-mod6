@@ -12,9 +12,9 @@ function App() {
       <p>Saldo awal kartu kantin: Rp {53 * 1000}</p>
       <button disabled>Bayar</button>
       <Panel judul="Menu hari ini">
-        <KartuMenu nama="Nasi Ayam Geprek" harga="13.700" />
-        <KartuMenu nama="Es Teh Lemon" harga="6.000" kategori="Minuman" />
-        <KartuMenu nama="Mie Goreng Telur" harga="12.000" />
+        <KartuMenu nama="Nasi Ayam Geprek" harga={13700} />
+        <KartuMenu nama="Es Teh Lemon" harga={6000} kategori="Minuman" />
+        <KartuMenu nama="Mie Goreng Telur" harga={12000} />
       </Panel>
     </>
   )
